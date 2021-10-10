@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 data = pd.read_csv('car.csv',header= None)
-#Columnas 
+#Columnas (se toman de la pagina donde descargamos el archivo csv, en este caso: https://archive.ics.uci.edu/ml/index.php) car_evaluation
 data.columns = ['Price', 'Maintenance Cost', 'Number de Doors', 'Capacity', 'Size of Luggage Boot','Safety','Decision']
 #top 5
 print(data.head(5))
